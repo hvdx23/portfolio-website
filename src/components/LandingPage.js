@@ -3,6 +3,7 @@ import profileImage from './assets/images/hari.jpeg';
 import './LandingPage.css';
 import Header from './header';
 import Footer from './Footer';
+import Repositories from './Repositories';
 
 function LandingPage() {
   return (
@@ -20,6 +21,7 @@ function LandingPage() {
         <p>Check out my work below and feel free to reach out!</p>
         <div className="projects">
           <h1>PROJECTS</h1>
+          <Repositories />
         </div>
       </div>
       <Footer />
