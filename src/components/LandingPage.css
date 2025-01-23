@@ -1,0 +1,28 @@
+.landing-page {
+    display:flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .landing-page  h1 {
+    font-size: 4em;
+    font-family: "julius-sans-one-regular";
+    font-weight: 100;
+  }
+
+  .landing-page p {
+    font-size: 1.5em;
+    font-family: "julius-sans-one-regular";
+  }
+
+  .profile-image {
+    width: 30vw; /* 30% of the viewport width */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;   
+    filter:grayscale(100%);
+  }

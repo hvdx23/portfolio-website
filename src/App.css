@@ -22,7 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  border-top: 0;
+  ;
 }
 
 .App-header img {
@@ -43,3 +43,15 @@
   }
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: black; /* Ensure the background color is consistent */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
