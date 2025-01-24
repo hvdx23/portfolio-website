@@ -64,11 +64,14 @@
     font-size: 1em;
   }
 
-  .repo-box{
+  /* .repo-box{
     display: flex;
     justify-content:calc(50% - 150px);
     align-items: center;
-    border:#532dc6 solid;
+    border:#532dc6 solid 2px;
+    box-shadow: white 0 0 15px;
     width:auto;
     height:300px;
-  }
+
+  } */
+
