@@ -59,7 +59,7 @@ function LandingPage() {
                 <b>BACHELORS IN ELECTRICAL AND ELECTRONICS ENGINEERING</b> {showBachelors ? '-' : '+'}
               </h2>
               <div className={`qualification-content ${showBachelors ? 'show' : ''}`}>
-                <li>Graduated from University of Calicut in 2012</li>
+                <li>University of Calicut</li>
                 <p>
                   I have a Bachelors degree in Electrical and Electronics
                   Engineering from University of Calicut. Electical and
