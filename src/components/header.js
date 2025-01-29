@@ -9,22 +9,22 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="about" smooth={true} duration={1000} hover={true} offset={+70}>
+            <Link to="about" smooth={true} duration={1000} className="nav-link" offset={+70}>
               About Me
             </Link>
           </li>
           <li>
-            <Link to="qualifications" smooth={true} duration={1000}>
+            <Link to="qualifications" smooth={true} duration={1000} className="nav-link">
               Qualifications
             </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={1000}>
+            <Link to="projects" smooth={true} duration={1000} className="nav-link">
               Projects
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={1000}>
+            <Link to="contact" smooth={true} duration={1000} className="nav-link">
               Contact
             </Link>
           </li>
