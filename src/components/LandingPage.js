@@ -12,7 +12,7 @@ function LandingPage() {
     <div className="landing-page">
       <Helmet>
         <title>Harikrishnan Portfolio</title>
-        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+        <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.ico" sizes="16x16" />
       </Helmet>
 
       <Header />
