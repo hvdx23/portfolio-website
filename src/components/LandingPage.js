@@ -118,7 +118,7 @@ function LandingPage() {
           </Element>
           <Element name="projects">
             <div className="projects">
-              <h1>PROJECTS</h1>
+              <h1>REPOSITORY</h1>
               <Repositories />
             </div>
           </Element>

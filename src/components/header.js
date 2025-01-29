@@ -9,7 +9,7 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="about" smooth={true} duration={1000} className="nav-link" offset={+70}>
+            <Link to="about" smooth={true} duration={1000} className="nav-link" >
               About Me
             </Link>
           </li>
@@ -20,7 +20,7 @@ function Header() {
           </li>
           <li>
             <Link to="projects" smooth={true} duration={1000} className="nav-link">
-              Projects
+              Repository
             </Link>
           </li>
           <li>
