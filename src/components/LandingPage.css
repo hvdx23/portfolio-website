@@ -72,6 +72,19 @@
     text-align:left;
   }
 
+  .qualification-content {
+    align-self: flex-start;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 1s ease-out, opacity 1s ease-out;
+  }
+  
+  .qualification-content.show {
+    max-height: 1000px; /* Adjust this value as needed */
+    opacity: 1;
+  }
+
   .profile-image {
     width: 15vw; /* 30% of the viewport width */
     height: auto;
