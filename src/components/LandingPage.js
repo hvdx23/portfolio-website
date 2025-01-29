@@ -22,7 +22,7 @@ function LandingPage() {
 
       <Header />
 
-      <h1>Welcome to My Portfolio</h1>
+      <h1>Software & Data Engineer Portfolio</h1>
       <section>
         <div className="landing-page-content">
           <img src={profileImage} alt="Profile" className="profile-image" />
