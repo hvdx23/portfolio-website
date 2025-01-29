@@ -1,3 +1,8 @@
+
+html body {
+  user-select:none;
+  cursor:default;
+}
 .landing-page {
     display:flex;
     flex-direction: column;
@@ -6,6 +11,7 @@
     min-height: 100vh;
     justify-content: center;
     text-align: center;
+    cursor: default;
   }
 
   .landing-page  h1 {
@@ -72,6 +78,19 @@
     text-align:left;
   }
 
+  .qualification-content {
+    align-self: flex-start;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 1s ease-out, opacity 1s ease-out;
+  }
+  
+  .qualification-content.show {
+    max-height: 1000px; /* Adjust this value as needed */
+    opacity: 1;
+  }
+
   .profile-image {
     width: 15vw; /* 30% of the viewport width */
     height: auto;
@@ -88,6 +107,7 @@
     width:fit-content;
     padding: 20px;
     border-radius: 30px;
+
   }
   
   
