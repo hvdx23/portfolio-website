@@ -4,7 +4,7 @@ import './footer.css';
 function Footer (){
     return(
         <footer>
-            <p>© 2021 Harikrishnan Venugopal</p>
+            <p style={{ textAlign: 'center' }}>© 2021 Harikrishnan Venugopal</p>
         </footer>
     );
 }
