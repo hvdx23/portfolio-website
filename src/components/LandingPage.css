@@ -20,6 +20,8 @@ html body {
     font-weight: 200;
     /* color:#bf9aef; */
     text-shadow: 0 0 5px #ffffff, 0 0 10px #000000, 0 0 15px #a871ef, 0 0 20px #201f21, 0 0 25px #000000, 0 0 30px #000000, 0 0 35px #ffffff;
+    
+    
   }
 
   .landing-page  h2 {
@@ -34,12 +36,16 @@ html body {
     font-size: 1.5em;
     font-family: "Jura", sans-serif;
     font-weight:100;
+    text-align:center;
   }
 
   .qualification {
-    display: flex; /* Ensure the container is a flex container */
-    flex-direction: column; /* Align items in a column */
-    align-items: flex-start; /* Align items to the start of the cross axis (left) */
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: center;
+    margin-left :5%;
+    margin-right: 5%;
   }
 
   .qualification  h2 {
@@ -75,7 +81,7 @@ html body {
     font-size: 1.5em;
     font-family: "Jura", sans-serif;
     font-weight:100;
-    text-align:left;
+    text-align:left justify;
   }
 
   .qualification-content {
@@ -84,6 +90,8 @@ html body {
     overflow: hidden;
     opacity: 0;
     transition: max-height 1s ease-out, opacity 1s ease-out;
+
+    text-align: justify;
   }
   
   .qualification-content.show {
