@@ -6,6 +6,7 @@ import './LandingPage.css';
 import Header from './header';
 import Footer from './Footer';
 import Repositories from './Repositories';
+import Techstack from './Techstack';
 
 function LandingPage() {
   const [showBachelors, setShowBachelors] = useState(false);
@@ -124,6 +125,11 @@ function LandingPage() {
               </div>
             </div>
           </Element>
+
+          <Element name="techstack">
+            <Techstack/>
+          </Element>
+
           <Element name="projects">
             <div className="projects">
               <h1>REPOSITORY</h1>
