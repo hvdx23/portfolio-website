@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 
 
+
 function Qualification() {
     const [showBachelors, setShowBachelors] = useState(false);
       const [showMasters, setShowMasters] = useState(false);

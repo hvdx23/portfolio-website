@@ -60,6 +60,17 @@ function LandingPage() {
               <Repositories />
             </div>
           </Element>
+
+          <Element name="contact">
+            <div>
+              <h1>CONTACT</h1>
+              <p>
+                Feel free to reach out to me at{' '}
+                <a href="mailto:hari.venu2022@gmail.com" className="email">hari.venu2022@gmail.com</a>
+              </p>
+            </div>
+          </Element>
+
         </div>
       </section>
       <Footer />

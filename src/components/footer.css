@@ -1,15 +1,15 @@
 .footer {
-    background: black;
-    color: white; /* Ensure text is visible on a black background */
-    text-align: center;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .footer p {
-    margin: 0;
-    font-size: 1em;
-    font-family: "Julius Sans One", serif; /* Apply the font directly */
-  }
+  background: black;
+  color: white; /* Ensure text is visible on a black background */
+  text-align: center !important; /* Add !important to ensure it takes precedence */
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1em;
+  font-family: "Julius Sans One", serif;
+}

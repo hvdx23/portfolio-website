@@ -15,13 +15,13 @@ function Repositories() {
             <h1>My Github Repositories</h1>
             <ul>
                 {repositories.map(repo => {
-                    console.log(`ID: ${repo.id}, Name: ${repo.name}`);
+                    
                     return (
-                        <div className= "repo-box">
-                    <li key={repo.id}>
-                        <a href={repo.html_url}>{repo.name}</a>
-                    <p>{repo.description}</p>
-                    </li>
+                    <div className= "repo-box">
+                        <li key={repo.id}>
+                            <a href={repo.html_url}>{repo.name}</a>
+                            <p style={{textAlign:'center', marginLeft:'10%',marginRight :'10%'}}>{repo.description}</p>
+                        </li>
                     </div>
                     );
 })}
