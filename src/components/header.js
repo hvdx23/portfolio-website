@@ -19,10 +19,16 @@ function Header() {
             </Link>
           </li>
           <li>
+            <Link to="techstack" smooth={true} duration={1000} className="nav-link">
+              Tech Stack
+            </Link>
+          </li>
+          <li>
             <Link to="projects" smooth={true} duration={1000} className="nav-link">
               Repository
             </Link>
           </li>
+          
           <li>
             <Link to="contact" smooth={true} duration={1000} className="nav-link">
               Contact
