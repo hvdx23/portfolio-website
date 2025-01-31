@@ -2,12 +2,17 @@ import React from 'react';
 import { Link } from 'react-scroll';
 import './header.css';
 
+
+
 function Header() {
   return (
     <header className="header">
+      
       <h1>HARIKRISHNAN VENUGOPAL</h1>
       <nav>
         <ul>
+        
+        
           <li>
             <Link to="about" smooth={true} duration={1000} className="nav-link" >
               About Me
