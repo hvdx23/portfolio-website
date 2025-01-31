@@ -15,15 +15,9 @@ code {
     monospace;
 }
 
-/* .julius-sans-one-regular {
-  font-family: "Julius Sans One", serif;
-  font-weight: 400;
-  font-style: normal;
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
 }
-
-.smooch-sans-regular {
-  font-family: "Smooch Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-} */

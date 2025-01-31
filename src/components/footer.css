@@ -14,8 +14,29 @@
   font-family: "Julius Sans One", serif;
 }
 
-.link-container{
+.link-container {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .link-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+
+  .techstack-header {
+    font-size: 1.5em;
+  }
+
+  .footer p {
+    font-size: 0.8em;
+  }
+  .loader-container{
+    display: none;
+  }
 }

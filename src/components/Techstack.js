@@ -15,11 +15,11 @@ function Techstack() {
         </div>
       </div>
       <div className="techstack">
-        <StackIcon name="python" />
-        <StackIcon name="reactjs" />
+        <StackIcon name="python" className="stack-icon" />
+        <StackIcon name="reactjs" className="stack-icon" />
         <img src={javaIcon} alt="Java" style={{ height: '100px', width: '100px' }} />
-        <StackIcon name="js" />
-        <StackIcon name="vuejs" />
+        <StackIcon name="js" className="stack-icon" />
+        <StackIcon name="vuejs" className="stack-icon" />
       </div>
     </div>
   );
