@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import './header.css';
-import Card from './LinkPages';
+
 
 function Header() {
   return (
@@ -39,9 +39,7 @@ function Header() {
             </Link>
           </li>
         </ul>
-        {/* <div className="card-container">
-          <Card />
-        </div> */}
+
       </nav>
     </header>
   );

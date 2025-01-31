@@ -5,12 +5,16 @@ import Card from './LinkPages';
 function Footer (){
     return(
         <footer>
-            <div>
-                <p style={{ textAlign: 'center' }}>© 2021 Harikrishnan Venugopal</p>
+            <div className ="link-container">
+                <div >
+                    <Card />
+                </div>
+                <br></br>
+                <div>
+                    <p style={{ textAlign: 'center' }}>© 2021 Harikrishnan Venugopal</p>
+                </div>
             </div>
-            <div>
-                <Card />
-            </div>
+            
         </footer>
 
     );
