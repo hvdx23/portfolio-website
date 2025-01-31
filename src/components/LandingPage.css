@@ -37,6 +37,8 @@ html body {
     font-family: "Jura", sans-serif;
     font-weight:100;
     text-align: justify;
+    margin-left:5px;
+    margin-right:5px;
   }
 
   .qualification {
@@ -180,6 +182,8 @@ html body {
 
   .landing-page p {
     font-size: 1em;
+    margin-right:12px;
+    margin-left:12px;
   }
 
   .qualification h2 {
