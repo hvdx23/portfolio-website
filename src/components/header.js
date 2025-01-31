@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import './header.css';
 
 
+
 function Header() {
   return (
     <header className="header">
@@ -39,7 +40,6 @@ function Header() {
             </Link>
           </li>
         </ul>
-
       </nav>
     </header>
   );
