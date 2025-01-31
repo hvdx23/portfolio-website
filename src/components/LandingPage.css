@@ -37,6 +37,8 @@ html body {
     font-family: "Jura", sans-serif;
     font-weight:100;
     text-align: justify;
+    margin-left:5px;
+    margin-right:5px;
   }
 
   .qualification {
@@ -165,3 +167,50 @@ html body {
   .email:hover {
     text-decoration: underline;
   }
+
+
+  
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .landing-page h1 {
+    font-size: 2.5em;
+  }
+
+  .landing-page h2 {
+    font-size: 1.5em;
+  }
+
+  .landing-page p {
+    font-size: 1em;
+    margin-right:12px;
+    margin-left:12px;
+  }
+
+  .qualification h2 {
+    font-size: 1.5em;
+  }
+
+  .qualification h3 {
+    font-size: 1.2em;
+  }
+
+  .qualification li {
+    font-size: 1.2em;
+  }
+
+  .qualification p {
+    font-size: 1em;
+  }
+
+  .repositories h1 {
+    font-size: 4em;
+  }
+
+  .repositories a {
+    font-size: 1em;
+  }
+
+  .profile-image {
+    width: 50vw; /* Adjust as needed */
+  }
+}
