@@ -8,8 +8,12 @@ import Footer from './Footer';
 import Repositories from './Repositories';
 import Techstack from './Techstack';
 import Qualification from './Qualifications';
+import Top from './Top';
+
 
 function LandingPage() {
+
+  
   
   return (
     <div className="landing-page">
@@ -73,6 +77,7 @@ function LandingPage() {
 
         </div>
       </section>
+      < Top/>
       <Footer />
     </div>
   );
