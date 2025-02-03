@@ -175,6 +175,12 @@ html body {
     gap: 20px;
   }
 
+  .repo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
 
   
 /* Media Queries for Mobile Devices */
