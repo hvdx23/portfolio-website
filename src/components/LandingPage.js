@@ -5,14 +5,15 @@ import profileImage from './assets/images/hari.jpeg';
 import './LandingPage.css';
 import Header from './header';
 import Footer from './Footer';
-import Repositories from './Repositories';
+
 import Techstack from './Techstack';
 import Qualification from './Qualifications';
 import Top from './Top';
+import Repositories from './Repositories';
 
 
 function LandingPage() {
-
+  
   
   
   return (
@@ -57,10 +58,22 @@ function LandingPage() {
           <Element name="techstack">
             <Techstack/>
           </Element>
+          
+          <Element name="exp">
+            <h1>Experience</h1>
+            <p>afhjsadhkfjh asdfhjkjah askdfjhasdjkf kajdfh sdjfh alkfjh sadkjfh dsajfh kahdf ahdf kahdf kahsdkf kdshf 
+              sdfjhdkajhf akdsfh kdshfkads
+              sdfhj askfh dsajfhasdfha f
+              ksdjfhasdk fkjhf ak dh
+            </p>
+          </Element>
 
           <Element name="projects">
+          <div>
+            <h1>REPOSITORY</h1>
+          </div>
             <div className="projects">
-              <h1>REPOSITORY</h1>
+              
               <Repositories />
             </div>
           </Element>

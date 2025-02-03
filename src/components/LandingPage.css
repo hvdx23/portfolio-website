@@ -168,6 +168,13 @@ html body {
     text-decoration: underline;
   }
 
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
 
   
 /* Media Queries for Mobile Devices */
