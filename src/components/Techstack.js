@@ -6,9 +6,9 @@ import Loader from './Loader';
 import StackIcon from "tech-stack-icons";
 
 const background = {
-  backgroundColor: 'yellow',
-  padding: '10px',
-  borderRadius: '5px'
+  backgroundColor: 'white',
+  padding: '5px',
+  borderRadius: '500px'
 };
 
 function Techstack() {
