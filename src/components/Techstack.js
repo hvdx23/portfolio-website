@@ -11,6 +11,12 @@ const background = {
   borderRadius: '500px'
 };
 
+const background2 = {
+  backgroundColor: 'grey',
+  padding: '10px',
+  borderRadius: '500px'
+};
+
 function Techstack() {
   return (
     <div>
@@ -30,8 +36,8 @@ function Techstack() {
         <StackIcon name="nodejs" className="stack-icon" />
         <StackIcon name="aws" className="stack-icon" style={background} />
         <StackIcon name="azure" className="stack-icon" />
-        <StackIcon name="github" className="stack-icon" />
-        <StackIcon name="git" className="stack-icon" />
+        <StackIcon name="github" className="stack-icon"  style={background2} />
+        <StackIcon name="git" className="stack-icon"/>
 
 
       </div>
