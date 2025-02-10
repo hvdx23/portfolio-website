@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import RepositoryCard from './RepositoryCard';
+// import RepositoryCard from './RepositoryCard';
+import Card from './Repositoryver2Card';
 
 function Repositories() {
     const [repositories, setRepos] = useState([]);
@@ -16,7 +17,7 @@ function Repositories() {
             <h1>My Github Repositories</h1>
             <div className="repo-list">
                 {repositories.map(repo => (
-                    <RepositoryCard key={repo.id} repo={repo} />
+                    <Card key={repo.id} repo={repo} />
                 ))}
             </div>
         </div>
