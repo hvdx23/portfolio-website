@@ -34,7 +34,7 @@ const StyledWrapper = styled.div`
   }
 
   .card {
-    width: 100%;
+    width: 95%;
     height: 100%;
     border-radius: inherit;
   }
