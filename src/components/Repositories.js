@@ -8,7 +8,15 @@ function Repositories() {
     useEffect(() => {
         fetch('https://api.github.com/users/hvdx23/repos')
             .then(response => response.json())
-            .then(data => setRepos(data))
+            .then(data => {
+            const updatedData = data.map(repo => {
+                if (repo.description === null) {
+                repo.description = "No description available";
+                }
+                return repo;
+            });
+            setRepos(updatedData);
+            })
             .catch(error => console.error('Error fetching repositories:', error));
     }, []);
 

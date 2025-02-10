@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Card = ({repo}) => {
@@ -15,7 +15,7 @@ const Card = ({repo}) => {
             <p>
               {repo.description}
             </p>
-            <a href={repo.html_url} onClick={NavLink}>View Repository</a>
+            <a href={repo.html_url} >View Repository</a>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ const StyledWrapper = styled.div`
     font-size: 32px;
     font-weight: 700;
     opacity: 1;
-    background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+    background: linear-gradient(-45deg,rgb(133, 130, 136) 0%,#b06dee 100% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -76,7 +76,7 @@ const StyledWrapper = styled.div`
     padding: 2px;
     line-height: 1;
     border-radius: 1px;
-    pointer-events: none;
+
     transform: translateX(-99%);
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
