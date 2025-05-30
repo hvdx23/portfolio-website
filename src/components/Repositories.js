@@ -35,7 +35,7 @@ function Repositories() {
 
     return (
         <div className="repositories">
-            <h1>My Github Repositories</h1>
+            <h2>My Github Repositories</h2>
             {!isMobile && (
                 <div className="repo-list">
                     {repositories.map(repo => (

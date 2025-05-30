@@ -84,6 +84,8 @@ function Qualification() {
                   provides me great pleasure to workout various solutions in
                   Python.
                 </p>
+
+                <p>I Graduated from The University of Waikato's Master of Information Technology course in December 2025 having secured First class with Honors</p>
               </div>
             </div>
         
