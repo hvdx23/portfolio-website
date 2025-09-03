@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+// import cert1 from './assets/certs/1.pdf';
 
 const Certification = () => {
     const [showCertifications, setShowCertifications] = useState(false);

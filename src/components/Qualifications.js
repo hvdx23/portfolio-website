@@ -85,7 +85,7 @@ function Qualification() {
                   Python.
                 </p>
 
-                <p>I Graduated from The University of Waikato's Master of Information Technology course in December 2025 having secured First class with Honors</p>
+                <p>I Graduated from The University of Waikato's Master of Information Technology course in December 2025 having secured  First class with Honors</p>
               </div>
             </div>
         

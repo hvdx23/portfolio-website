@@ -36,7 +36,7 @@ function Techstack() {
         <StackIcon name="nodejs" className="stack-icon" />
         <StackIcon name="aws" className="stack-icon" style={background} />
         <StackIcon name="azure" className="stack-icon" />
-        {/* <StackIcon name="github" className="stack-icon"  style={background2} /> */}
+        <StackIcon name="github" className="stack-icon"  style={background2} />
         <StackIcon name="git" className="stack-icon"/>
         <StackIcon name="mysql" className="stack-icon" />
         <StackIcon name="mongodb" className="stack-icon" />

@@ -29,11 +29,11 @@ function Header() {
             </Link>
           </li>
           
-          <li>
+          {/* <li>
             <Link to="certifications" smooth={true} duration={1000} className="nav-link">
               Certifications
             </Link>
-          </li>
+          </li> */}
 
           <li>
             <Link to="projects" smooth={true} duration={1000} className="nav-link">
