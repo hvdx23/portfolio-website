@@ -9,7 +9,7 @@ import Repositories from './Repositories';
 import Techstack from './Techstack';
 import Qualification from './Qualifications';
 import Top from './Top';
-// import Certification from './Certification';
+import Certification from './Certification';
 
 
 function LandingPage() {
@@ -55,9 +55,9 @@ function LandingPage() {
           <Qualification/>            
           </Element>
 
-          {/* <Element name="certifications">
+          <Element name="certifications">
             <Certification/>
-          </Element> */}
+          </Element>
 
           <Element name="techstack">
             <Techstack/>
